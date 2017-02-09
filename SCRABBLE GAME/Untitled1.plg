@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Untitled1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\verb\AppData\Local\Temp\RSPB160.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Untitled1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"H:\Untitled1.cpp"
+]
+Creating command line "cl.exe @C:\Users\verb\AppData\Local\Temp\RSPB160.tmp" 
+Creating temporary file "C:\Users\verb\AppData\Local\Temp\RSPB161.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Untitled1.pdb" /debug /machine:I386 /out:"Debug/Untitled1.exe" /pdbtype:sept 
+.\Debug\Untitled1.obj
+.\Debug\newnew.obj
+]
+Creating command line "link.exe @C:\Users\verb\AppData\Local\Temp\RSPB161.tmp"
+<h3>Output Window</h3>
+Compiling...
+Untitled1.cpp
+c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\xtree(120) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' : identifier was truncated to '255' characters in the debug information
+        c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\map(46) : see reference to class template instantiation 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+        H:\Untitled1.cpp(8) : see reference to class template instantiation 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\xtree(120) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::const_iterator' : identifier was truncated to '255' characters in the debug information
+        c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\map(46) : see reference to class template instantiation 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+        H:\Untitled1.cpp(8) : see reference to class template instantiation 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\xtree(120) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::iterator' : identifier was truncated to '255' characters in the debug information
+        c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\map(46) : see reference to class template instantiation 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+        H:\Untitled1.cpp(8) : see reference to class template instantiation 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\xtree(120) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Node' : identifier was truncated to '255' characters in the debug information
+        c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\map(46) : see reference to class template instantiation 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+        H:\Untitled1.cpp(8) : see reference to class template instantiation 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\xtree(120) : warning C4786: 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::const_iterator' : identifier was truncated to '255' characters in the debug information
+        c:\users\verb\downloads\microsoft visual c++ portable edition\microsoft visual c++ portable edition\vc6\vc98\include\map(46) : see reference to class template instantiation 'std::_Tree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,int>,std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >::_Kfn,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+        H:\Untitled1.cpp(8) : see reference to class template instantiation 'std::map<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,int,std::less<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<int> >' being compiled
+H:\Untitled1.cpp(16) : error C2039: 'push_back' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+H:\Untitled1.cpp(19) : error C2039: 'clear' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+Untitled1.exe - 2 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
